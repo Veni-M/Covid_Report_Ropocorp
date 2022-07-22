@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Working with HTML tables.
+Documentation       Covid Report Extraction.
 
 # libraries for table, browser, excel, email
 Library             html_tables.py
