@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20220722 09:33:58.299" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\syste\.vscode\extensions\robocorp.robotframework-lsp-0.49.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Get HTML table">
+<var>${html_table}</var>
+<msg timestamp="20220722 09:33:59.504" level="FAIL">No keyword with name 'Get HTML table' found.</msg>
+<status status="FAIL" starttime="20220722 09:33:59.504" endtime="20220722 09:33:59.504"/>
+</kw>
+<kw name="Read Table From Html">
+<var>${table}</var>
+<arg>${html_table}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${firstcolumn}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${Fifthcolumn}</var>
+<arg>${5}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${Seventhcolumn}</var>
+<arg>${7}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Pop table column">
+<arg>${table}</arg>
+<arg>${firstcolumn}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Pop table column">
+<arg>${table}</arg>
+<arg>${Fifthcolumn}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.510" endtime="20220722 09:33:59.510"/>
+</kw>
+<kw name="Pop table column">
+<arg>${table}</arg>
+<arg>${Seventhcolumn}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${y}</var>
+<arg>${10}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<while condition="${y} &lt; 14">
+<iter>
+<kw name="Log" library="BuiltIn">
+<arg>Executed as long as the condition is True.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<kw name="Pop table column">
+<arg>${table}</arg>
+<arg>${y}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${y}</var>
+<arg>${y} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</while>
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${15}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<while condition="${x} &lt; 22">
+<iter>
+<kw name="Log" library="BuiltIn">
+<arg>Executed as long as the condition is True.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.516"/>
+</kw>
+<kw name="Pop table column">
+<arg>${table}</arg>
+<arg>${x}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.524" endtime="20220722 09:33:59.524"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${x}</var>
+<arg>${x} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.524" endtime="20220722 09:33:59.524"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.524"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.516" endtime="20220722 09:33:59.524"/>
+</while>
+<kw name="Create List" library="BuiltIn">
+<var>${ColumnNames}</var>
+<arg>Location</arg>
+<arg>TotalCases</arg>
+<arg>NewCases</arg>
+<arg>TotalDeath</arg>
+<arg>TotalRecovered</arg>
+<arg>ActiveCases</arg>
+<arg>Serious/Critical</arg>
+<arg>Population</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.524" endtime="20220722 09:33:59.524"/>
+</kw>
+<kw name="Rename Table Columns">
+<arg>${table}</arg>
+<arg>${ColumnNames}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.527"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.527"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${z}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.527"/>
+</kw>
+<while condition="${x} &lt; 4">
+<iter>
+<kw name="Log" library="BuiltIn">
+<arg>Executed as long as the condition is True.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.527"/>
+</kw>
+<kw name="Pop Table Row">
+<arg>${table}</arg>
+<arg>${z}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.532" endtime="20220722 09:33:59.532"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${x}</var>
+<arg>${x} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.532" endtime="20220722 09:33:59.532"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.532"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.527" endtime="20220722 09:33:59.532"/>
+</while>
+<kw name="Pop Table Row">
+<arg>${table}</arg>
+<arg>1</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.536" endtime="20220722 09:33:59.537"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.537" endtime="20220722 09:33:59.537"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${z}</var>
+<arg>${11}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.537" endtime="20220722 09:33:59.537"/>
+</kw>
+<while condition="${x} &lt; 2">
+<iter>
+<kw name="Log" library="BuiltIn">
+<arg>Executed as long as the condition is True.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.537" endtime="20220722 09:33:59.537"/>
+</kw>
+<kw name="Pop Table Row">
+<arg>${table}</arg>
+<arg>${z}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.540" endtime="20220722 09:33:59.540"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${x}</var>
+<arg>${x} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.540" endtime="20220722 09:33:59.541"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.537" endtime="20220722 09:33:59.541"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.537" endtime="20220722 09:33:59.541"/>
+</while>
+<kw name="Pop Table Row">
+<arg>${table}</arg>
+<arg>220</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.544" endtime="20220722 09:33:59.545"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${x}</var>
+<arg>${0}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.545" endtime="20220722 09:33:59.545"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${z}</var>
+<arg>${230}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.545" endtime="20220722 09:33:59.545"/>
+</kw>
+<while condition="${x} &lt; 8">
+<iter>
+<kw name="Log" library="BuiltIn">
+<arg>Executed as long as the condition is True.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.545" endtime="20220722 09:33:59.545"/>
+</kw>
+<kw name="Pop Table Row">
+<arg>${table}</arg>
+<arg>${z}</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${x}</var>
+<arg>${x} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.545" endtime="20220722 09:33:59.546"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.545" endtime="20220722 09:33:59.546"/>
+</while>
+<for flavor="IN">
+<var>${row}</var>
+<value>@{table}</value>
+<iter>
+<var name="${row}"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</kw>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</iter>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</for>
+<kw name="Write table to CSV">
+<arg>${table}</arg>
+<arg>covidreport.CSV</arg>
+<status status="NOT RUN" starttime="20220722 09:33:59.546" endtime="20220722 09:33:59.546"/>
+</kw>
+<status status="PASS" starttime="20220722 09:33:58.411" endtime="20220722 09:34:01.224"/>
+</kw>
+<status status="PASS" starttime="20220722 09:33:58.411" endtime="20220722 09:34:01.224"/>
+</test>
+<status status="PASS" starttime="20220722 09:33:58.303" endtime="20220722 09:34:01.224"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
